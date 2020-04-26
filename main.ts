@@ -1054,11 +1054,11 @@ namespace mbit_Robot {
         switch (index) {
             case CarState.Car_Run: Car_run(speed1, speed2); break;
             case CarState.Car_Back: Car_back(speed1, speed2); break;
-            case CarState.Car_Left: Car_left(0, speed2); break;
-            case CarState.Car_Right: Car_right(speed1, 0); break;
+            // case CarState.Car_Left: Car_left(0, speed2); break;
+            // case CarState.Car_Right: Car_right(speed1, 0); break;
             case CarState.Car_Stop: Car_stop(); break;
-            case CarState.Car_SpinLeft: Car_spinleft(speed1, speed2); break;
-            case CarState.Car_SpinRight: Car_spinright(speed1, speed2); break;
+	    // case CarState.Car_SpinLeft: Car_spinleft(speed1, speed2); break;
+            // case CarState.Car_SpinRight: Car_spinright(speed1, speed2); break;
         }
     }
 }
